@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		371089E01E667CDC00368411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089DF1E667CDC00368411 /* AppDelegate.swift */; };
-		371089E21E667CDC00368411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089E11E667CDC00368411 /* ViewController.swift */; };
 		371089E51E667CDC00368411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371089E31E667CDC00368411 /* Main.storyboard */; };
 		371089E71E667CDC00368411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371089E61E667CDC00368411 /* Assets.xcassets */; };
 		371089EA1E667CDC00368411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371089E81E667CDC00368411 /* LaunchScreen.storyboard */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		371089DC1E667CDC00368411 /* Project Serene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Serene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371089DF1E667CDC00368411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		371089E11E667CDC00368411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		371089E41E667CDC00368411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		371089E61E667CDC00368411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371089E91E667CDC00368411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,11 +75,12 @@
 		371089DE1E667CDC00368411 /* Project Serene */ = {
 			isa = PBXGroup;
 			children = (
+				37108A001E667D6000368411 /* Models */,
+				371089FF1E667D1600368411 /* Storyboards */,
+				37108A011E667D6600368411 /* Controllers */,
+				37108A021E667EE000368411 /* Extensions */,
 				371089DF1E667CDC00368411 /* AppDelegate.swift */,
-				371089E11E667CDC00368411 /* ViewController.swift */,
-				371089E31E667CDC00368411 /* Main.storyboard */,
 				371089E61E667CDC00368411 /* Assets.xcassets */,
-				371089E81E667CDC00368411 /* LaunchScreen.storyboard */,
 				371089EB1E667CDC00368411 /* Info.plist */,
 			);
 			path = "Project Serene";
@@ -94,6 +93,36 @@
 				371089F61E667CDD00368411 /* Info.plist */,
 			);
 			path = "Project SereneTests";
+			sourceTree = "<group>";
+		};
+		371089FF1E667D1600368411 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				371089E31E667CDC00368411 /* Main.storyboard */,
+				371089E81E667CDC00368411 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		37108A001E667D6000368411 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		37108A011E667D6600368411 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		37108A021E667EE000368411 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +175,7 @@
 				TargetAttributes = {
 					371089DB1E667CDC00368411 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 952LYY5FW2;
 						ProvisioningStyle = Automatic;
 					};
 					371089EF1E667CDD00368411 = {
@@ -199,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371089E21E667CDC00368411 /* ViewController.swift in Sources */,
 				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +258,7 @@
 				371089E41E667CDC00368411 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		371089E81E667CDC00368411 /* LaunchScreen.storyboard */ = {
@@ -237,6 +267,7 @@
 				371089E91E667CDC00368411 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Project Serene/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-Serene";
@@ -351,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Project Serene/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-Serene";
