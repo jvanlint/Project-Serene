@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371089E01E667CDC00368411 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089DF1E667CDC00368411 /* AppDelegate.swift */; };
+		371089E21E667CDC00368411 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089E11E667CDC00368411 /* ViewController.swift */; };
+		371089E51E667CDC00368411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371089E31E667CDC00368411 /* Main.storyboard */; };
+		371089E71E667CDC00368411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371089E61E667CDC00368411 /* Assets.xcassets */; };
+		371089EA1E667CDC00368411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371089E81E667CDC00368411 /* LaunchScreen.storyboard */; };
+		371089F51E667CDD00368411 /* Project_SereneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089F41E667CDD00368411 /* Project_SereneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371089F11E667CDD00368411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371089D41E667CDC00368411 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371089DB1E667CDC00368411;
+			remoteInfo = "Project Serene";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		371089DC1E667CDC00368411 /* Project Serene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Serene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371089DF1E667CDC00368411 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		371089E11E667CDC00368411 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		371089E41E667CDC00368411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		371089E61E667CDC00368411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371089E91E667CDC00368411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		371089EB1E667CDC00368411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371089F01E667CDD00368411 /* Project SereneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SereneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371089F41E667CDD00368411 /* Project_SereneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_SereneTests.swift; sourceTree = "<group>"; };
+		371089F61E667CDD00368411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371089D91E667CDC00368411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371089ED1E667CDD00368411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371089D31E667CDC00368411 = {
+			isa = PBXGroup;
+			children = (
+				371089DE1E667CDC00368411 /* Project Serene */,
+				371089F31E667CDD00368411 /* Project SereneTests */,
+				371089DD1E667CDC00368411 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		371089DD1E667CDC00368411 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371089DC1E667CDC00368411 /* Project Serene.app */,
+				371089F01E667CDD00368411 /* Project SereneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371089DE1E667CDC00368411 /* Project Serene */ = {
+			isa = PBXGroup;
+			children = (
+				371089DF1E667CDC00368411 /* AppDelegate.swift */,
+				371089E11E667CDC00368411 /* ViewController.swift */,
+				371089E31E667CDC00368411 /* Main.storyboard */,
+				371089E61E667CDC00368411 /* Assets.xcassets */,
+				371089E81E667CDC00368411 /* LaunchScreen.storyboard */,
+				371089EB1E667CDC00368411 /* Info.plist */,
+			);
+			path = "Project Serene";
+			sourceTree = "<group>";
+		};
+		371089F31E667CDD00368411 /* Project SereneTests */ = {
+			isa = PBXGroup;
+			children = (
+				371089F41E667CDD00368411 /* Project_SereneTests.swift */,
+				371089F61E667CDD00368411 /* Info.plist */,
+			);
+			path = "Project SereneTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371089DB1E667CDC00368411 /* Project Serene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371089F91E667CDD00368411 /* Build configuration list for PBXNativeTarget "Project Serene" */;
+			buildPhases = (
+				371089D81E667CDC00368411 /* Sources */,
+				371089D91E667CDC00368411 /* Frameworks */,
+				371089DA1E667CDC00368411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Serene";
+			productName = "Project Serene";
+			productReference = 371089DC1E667CDC00368411 /* Project Serene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371089EF1E667CDD00368411 /* Project SereneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371089FC1E667CDD00368411 /* Build configuration list for PBXNativeTarget "Project SereneTests" */;
+			buildPhases = (
+				371089EC1E667CDD00368411 /* Sources */,
+				371089ED1E667CDD00368411 /* Frameworks */,
+				371089EE1E667CDD00368411 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371089F21E667CDD00368411 /* PBXTargetDependency */,
+			);
+			name = "Project SereneTests";
+			productName = "Project SereneTests";
+			productReference = 371089F01E667CDD00368411 /* Project SereneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371089D41E667CDC00368411 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TheSwiftCollective;
+				TargetAttributes = {
+					371089DB1E667CDC00368411 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					371089EF1E667CDD00368411 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 371089DB1E667CDC00368411;
+					};
+				};
+			};
+			buildConfigurationList = 371089D71E667CDC00368411 /* Build configuration list for PBXProject "Project Serene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371089D31E667CDC00368411;
+			productRefGroup = 371089DD1E667CDC00368411 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371089DB1E667CDC00368411 /* Project Serene */,
+				371089EF1E667CDD00368411 /* Project SereneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371089DA1E667CDC00368411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371089EA1E667CDC00368411 /* LaunchScreen.storyboard in Resources */,
+				371089E71E667CDC00368411 /* Assets.xcassets in Resources */,
+				371089E51E667CDC00368411 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371089EE1E667CDD00368411 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371089D81E667CDC00368411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371089E21E667CDC00368411 /* ViewController.swift in Sources */,
+				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371089EC1E667CDD00368411 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371089F51E667CDD00368411 /* Project_SereneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371089F21E667CDD00368411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371089DB1E667CDC00368411 /* Project Serene */;
+			targetProxy = 371089F11E667CDD00368411 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		371089E31E667CDC00368411 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371089E41E667CDC00368411 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		371089E81E667CDC00368411 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				371089E91E667CDC00368411 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		371089F71E667CDD00368411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		371089F81E667CDD00368411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		371089FA1E667CDD00368411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project Serene/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-Serene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		371089FB1E667CDD00368411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Project Serene/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-Serene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		371089FD1E667CDD00368411 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project SereneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-SereneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Serene.app/Project Serene";
+			};
+			name = Debug;
+		};
+		371089FE1E667CDD00368411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Project SereneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-SereneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project Serene.app/Project Serene";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371089D71E667CDC00368411 /* Build configuration list for PBXProject "Project Serene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371089F71E667CDD00368411 /* Debug */,
+				371089F81E667CDD00368411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371089F91E667CDD00368411 /* Build configuration list for PBXNativeTarget "Project Serene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371089FA1E667CDD00368411 /* Debug */,
+				371089FB1E667CDD00368411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		371089FC1E667CDD00368411 /* Build configuration list for PBXNativeTarget "Project SereneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371089FD1E667CDD00368411 /* Debug */,
+				371089FE1E667CDD00368411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371089D41E667CDC00368411 /* Project object */;
+}
