@@ -13,6 +13,12 @@
 		371089EA1E667CDC00368411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371089E81E667CDC00368411 /* LaunchScreen.storyboard */; };
 		371089F51E667CDD00368411 /* Project_SereneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089F41E667CDD00368411 /* Project_SereneTests.swift */; };
 		37108A041E679C2000368411 /* PlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A031E679C2000368411 /* PlanTableViewController.swift */; };
+		37108A071E679F2300368411 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A061E679F2300368411 /* AppController.swift */; };
+		37108A091E679F3B00368411 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A081E679F3B00368411 /* MessageComposer.swift */; };
+		37108A0D1E679F5900368411 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A0A1E679F5900368411 /* UIColorExtensions.swift */; };
+		37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A0B1E679F5900368411 /* IntExtensions.swift */; };
+		37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A0C1E679F5900368411 /* ArrayExtensions.swift */; };
+		37108A121E679FA900368411 /* WireframeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A111E679FA900368411 /* WireframeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		371089F41E667CDD00368411 /* Project_SereneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_SereneTests.swift; sourceTree = "<group>"; };
 		371089F61E667CDD00368411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37108A031E679C2000368411 /* PlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewController.swift; sourceTree = "<group>"; };
+		37108A061E679F2300368411 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		37108A081E679F3B00368411 /* MessageComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
+		37108A0A1E679F5900368411 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		37108A0B1E679F5900368411 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		37108A0C1E679F5900368411 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		37108A111E679FA900368411 /* WireframeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,8 @@
 				371089FF1E667D1600368411 /* Storyboards */,
 				37108A011E667D6600368411 /* Controllers */,
 				37108A021E667EE000368411 /* Extensions */,
+				37108A051E679EE900368411 /* Custom Classes */,
+				37108A101E679F7B00368411 /* Custom Controls */,
 				371089DF1E667CDC00368411 /* AppDelegate.swift */,
 				371089E61E667CDC00368411 /* Assets.xcassets */,
 				371089EB1E667CDC00368411 /* Info.plist */,
@@ -116,6 +130,7 @@
 		37108A011E667D6600368411 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				37108A131E67A1FB00368411 /* Table Cells */,
 				37108A031E679C2000368411 /* PlanTableViewController.swift */,
 			);
 			path = Controllers;
@@ -124,8 +139,37 @@
 		37108A021E667EE000368411 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				37108A0A1E679F5900368411 /* UIColorExtensions.swift */,
+				37108A0B1E679F5900368411 /* IntExtensions.swift */,
+				37108A0C1E679F5900368411 /* ArrayExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		37108A051E679EE900368411 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37108A061E679F2300368411 /* AppController.swift */,
+				37108A081E679F3B00368411 /* MessageComposer.swift */,
+			);
+			name = "Custom Classes";
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		37108A101E679F7B00368411 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				37108A111E679FA900368411 /* WireframeButton.swift */,
+			);
+			name = "Custom Controls";
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		37108A131E67A1FB00368411 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Table Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +277,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37108A041E679C2000368411 /* PlanTableViewController.swift in Sources */,
+				37108A091E679F3B00368411 /* MessageComposer.swift in Sources */,
+				37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */,
 				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
+				37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */,
+				37108A071E679F2300368411 /* AppController.swift in Sources */,
+				37108A121E679FA900368411 /* WireframeButton.swift in Sources */,
+				37108A0D1E679F5900368411 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
