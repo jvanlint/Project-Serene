@@ -19,6 +19,7 @@
 		37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A0B1E679F5900368411 /* IntExtensions.swift */; };
 		37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A0C1E679F5900368411 /* ArrayExtensions.swift */; };
 		37108A121E679FA900368411 /* WireframeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A111E679FA900368411 /* WireframeButton.swift */; };
+		37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A141E67A37300368411 /* PlanTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		37108A0B1E679F5900368411 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 		37108A0C1E679F5900368411 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		37108A111E679FA900368411 /* WireframeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeButton.swift; sourceTree = "<group>"; };
+		37108A141E67A37300368411 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		37108A131E67A1FB00368411 /* Table Cells */ = {
 			isa = PBXGroup;
 			children = (
+				37108A141E67A37300368411 /* PlanTableViewCell.swift */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */,
 				37108A071E679F2300368411 /* AppController.swift in Sources */,
 				37108A121E679FA900368411 /* WireframeButton.swift in Sources */,
+				37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */,
 				37108A0D1E679F5900368411 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
