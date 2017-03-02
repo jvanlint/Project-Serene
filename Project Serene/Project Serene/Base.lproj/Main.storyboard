@@ -84,7 +84,7 @@
         <!--Plans-->
         <scene sceneID="3qL-iY-ClM">
             <objects>
-                <tableViewController storyboardIdentifier="Plans" id="2mQ-qo-HH8" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Plans" id="2mQ-qo-HH8" customClass="PlanTableViewController" customModule="Project_Serene" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="oo8-We-9lv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

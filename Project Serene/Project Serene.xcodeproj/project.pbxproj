@@ -12,6 +12,7 @@
 		371089E71E667CDC00368411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371089E61E667CDC00368411 /* Assets.xcassets */; };
 		371089EA1E667CDC00368411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371089E81E667CDC00368411 /* LaunchScreen.storyboard */; };
 		371089F51E667CDD00368411 /* Project_SereneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371089F41E667CDD00368411 /* Project_SereneTests.swift */; };
+		37108A041E679C2000368411 /* PlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A031E679C2000368411 /* PlanTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		371089F01E667CDD00368411 /* Project SereneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SereneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371089F41E667CDD00368411 /* Project_SereneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_SereneTests.swift; sourceTree = "<group>"; };
 		371089F61E667CDD00368411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37108A031E679C2000368411 /* PlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		37108A011E667D6600368411 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				37108A031E679C2000368411 /* PlanTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37108A041E679C2000368411 /* PlanTableViewController.swift in Sources */,
 				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				371089FB1E667CDD00368411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371089FC1E667CDD00368411 /* Build configuration list for PBXNativeTarget "Project SereneTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				371089FE1E667CDD00368411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
