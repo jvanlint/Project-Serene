@@ -98,6 +98,8 @@
 				37108A051E679EE900368411 /* Custom Classes */,
 				37108A101E679F7B00368411 /* Custom Controls */,
 				371089DF1E667CDC00368411 /* AppDelegate.swift */,
+				371089E31E667CDC00368411 /* Main.storyboard */,
+				371089E81E667CDC00368411 /* LaunchScreen.storyboard */,
 				371089E61E667CDC00368411 /* Assets.xcassets */,
 				371089EB1E667CDC00368411 /* Info.plist */,
 			);
@@ -116,8 +118,6 @@
 		371089FF1E667D1600368411 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				371089E31E667CDC00368411 /* Main.storyboard */,
-				371089E81E667CDC00368411 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -316,7 +316,6 @@
 				371089E41E667CDC00368411 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		371089E81E667CDC00368411 /* LaunchScreen.storyboard */ = {
@@ -325,7 +324,6 @@
 				371089E91E667CDC00368411 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -431,7 +429,7 @@
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Project Serene/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-Serene";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apptruistic.Project-Serene";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -444,7 +442,7 @@
 				DEVELOPMENT_TEAM = 952LYY5FW2;
 				INFOPLIST_FILE = "Project Serene/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.theswiftcollective.Project-Serene";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apptruistic.Project-Serene";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
