@@ -20,6 +20,7 @@
 		37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A0C1E679F5900368411 /* ArrayExtensions.swift */; };
 		37108A121E679FA900368411 /* WireframeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A111E679FA900368411 /* WireframeButton.swift */; };
 		37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A141E67A37300368411 /* PlanTableViewCell.swift */; };
+		37108A181E68EA6A00368411 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A171E68EA6A00368411 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		37108A0C1E679F5900368411 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		37108A111E679FA900368411 /* WireframeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeButton.swift; sourceTree = "<group>"; };
 		37108A141E67A37300368411 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
+		37108A171E68EA6A00368411 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				37108A021E667EE000368411 /* Extensions */,
 				37108A051E679EE900368411 /* Custom Classes */,
 				37108A101E679F7B00368411 /* Custom Controls */,
+				37108A161E68E17200368411 /* Constants/Enums */,
 				371089DF1E667CDC00368411 /* AppDelegate.swift */,
 				371089E31E667CDC00368411 /* Main.storyboard */,
 				371089E81E667CDC00368411 /* LaunchScreen.storyboard */,
@@ -173,6 +176,15 @@
 				37108A141E67A37300368411 /* PlanTableViewCell.swift */,
 			);
 			name = "Table Cells";
+			sourceTree = "<group>";
+		};
+		37108A161E68E17200368411 /* Constants/Enums */ = {
+			isa = PBXGroup;
+			children = (
+				37108A171E68EA6A00368411 /* Enums.swift */,
+			);
+			name = Constants/Enums;
+			path = ConstantsEnums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +293,7 @@
 			files = (
 				37108A041E679C2000368411 /* PlanTableViewController.swift in Sources */,
 				37108A091E679F3B00368411 /* MessageComposer.swift in Sources */,
+				37108A181E68EA6A00368411 /* Enums.swift in Sources */,
 				37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */,
 				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
 				37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */,
