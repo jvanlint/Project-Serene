@@ -99,11 +99,30 @@ extension UIColor {
         return UIColor(r:127, g:140, b:141)
     }
     
-    class func pantone1235()->UIColor {       
-        return UIColor(r:127, g:140, b:141)    
+    class func pantone1235()->UIColor {         //yellow color
+        return UIColor(r:255, g:182, b:18)
     }
     
-    class func pantone1505()->UIColor {               return UIColor(r:127, g:140, b:141)        }
+    class func pantone1505()->UIColor {         //orange color
+        return UIColor(r:255, g:110, b:0)
+    }
+    
+    class func pantone376()->UIColor {         //orange color
+        return UIColor(r:122, g:184, b:0)
+    }
+    
+    class func pantone2726()->UIColor {         //orange color
+        return UIColor(r:76, g:92, b:197)
+    }
+    
+    class func pantone382()->UIColor {         //orange color
+        return UIColor(r:190, g:214, b:0)
+    }
+    
+    class func pantone299()->UIColor {         //orange color
+        return UIColor(r:0, g:161, b:222)
+    }
+    
     
     
     //MARK: - Class Methods
