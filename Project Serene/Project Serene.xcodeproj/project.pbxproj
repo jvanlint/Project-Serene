@@ -21,6 +21,7 @@
 		37108A121E679FA900368411 /* WireframeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A111E679FA900368411 /* WireframeButton.swift */; };
 		37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A141E67A37300368411 /* PlanTableViewCell.swift */; };
 		37108A181E68EA6A00368411 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A171E68EA6A00368411 /* Enums.swift */; };
+		37108A1A1E68F14D00368411 /* ProcedurePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A191E68F14D00368411 /* ProcedurePlan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		37108A111E679FA900368411 /* WireframeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WireframeButton.swift; sourceTree = "<group>"; };
 		37108A141E67A37300368411 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
 		37108A171E68EA6A00368411 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		37108A191E68F14D00368411 /* ProcedurePlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedurePlan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		37108A001E667D6000368411 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				37108A191E68F14D00368411 /* ProcedurePlan.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37108A041E679C2000368411 /* PlanTableViewController.swift in Sources */,
+				37108A1A1E68F14D00368411 /* ProcedurePlan.swift in Sources */,
 				37108A091E679F3B00368411 /* MessageComposer.swift in Sources */,
 				37108A181E68EA6A00368411 /* Enums.swift in Sources */,
 				37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */,
