@@ -99,6 +99,13 @@ extension UIColor {
         return UIColor(r:127, g:140, b:141)
     }
     
+    class func pantone1235()->UIColor {       
+        return UIColor(r:127, g:140, b:141)    
+    }
+    
+    class func pantone1505()->UIColor {               return UIColor(r:127, g:140, b:141)        }
+    
+    
     //MARK: - Class Methods
     
     // ColorTuple declaration for randomFlatColor function
