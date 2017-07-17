@@ -22,6 +22,9 @@
 		37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A141E67A37300368411 /* PlanTableViewCell.swift */; };
 		37108A181E68EA6A00368411 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A171E68EA6A00368411 /* Enums.swift */; };
 		37108A1A1E68F14D00368411 /* ProcedurePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A191E68F14D00368411 /* ProcedurePlan.swift */; };
+		860FF6F51F1CF604007DFAEA /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860FF6F41F1CF604007DFAEA /* SettingsTableViewController.swift */; };
+		860FF6F81F1CF750007DFAEA /* testData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 860FF6F71F1CF750007DFAEA /* testData.plist */; };
+		860FF6FA1F1CF859007DFAEA /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860FF6F91F1CF859007DFAEA /* SettingsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		37108A141E67A37300368411 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
 		37108A171E68EA6A00368411 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		37108A191E68F14D00368411 /* ProcedurePlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedurePlan.swift; sourceTree = "<group>"; };
+		860FF6F41F1CF604007DFAEA /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		860FF6F71F1CF750007DFAEA /* testData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = testData.plist; path = "Project Serene/Data/testData.plist"; sourceTree = "<group>"; };
+		860FF6F91F1CF859007DFAEA /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		371089D31E667CDC00368411 = {
 			isa = PBXGroup;
 			children = (
+				860FF6F61F1CF6FD007DFAEA /* Data */,
 				371089DE1E667CDC00368411 /* Project Serene */,
 				371089F31E667CDD00368411 /* Project SereneTests */,
 				371089DD1E667CDC00368411 /* Products */,
@@ -140,6 +147,7 @@
 			children = (
 				37108A131E67A1FB00368411 /* Table Cells */,
 				37108A031E679C2000368411 /* PlanTableViewController.swift */,
+				860FF6F41F1CF604007DFAEA /* SettingsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				37108A141E67A37300368411 /* PlanTableViewCell.swift */,
+				860FF6F91F1CF859007DFAEA /* SettingsTableViewCell.swift */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -188,6 +197,14 @@
 			);
 			name = Constants/Enums;
 			path = ConstantsEnums;
+			sourceTree = "<group>";
+		};
+		860FF6F61F1CF6FD007DFAEA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				860FF6F71F1CF750007DFAEA /* testData.plist */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,7 @@
 			files = (
 				371089EA1E667CDC00368411 /* LaunchScreen.storyboard in Resources */,
 				371089E71E667CDC00368411 /* Assets.xcassets in Resources */,
+				860FF6F81F1CF750007DFAEA /* testData.plist in Resources */,
 				371089E51E667CDC00368411 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,9 +317,11 @@
 				37108A091E679F3B00368411 /* MessageComposer.swift in Sources */,
 				37108A181E68EA6A00368411 /* Enums.swift in Sources */,
 				37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */,
+				860FF6FA1F1CF859007DFAEA /* SettingsTableViewCell.swift in Sources */,
 				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
 				37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */,
 				37108A071E679F2300368411 /* AppController.swift in Sources */,
+				860FF6F51F1CF604007DFAEA /* SettingsTableViewController.swift in Sources */,
 				37108A121E679FA900368411 /* WireframeButton.swift in Sources */,
 				37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */,
 				37108A0D1E679F5900368411 /* UIColorExtensions.swift in Sources */,
