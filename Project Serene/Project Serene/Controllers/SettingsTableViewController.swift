@@ -19,10 +19,12 @@ class SettingsTableViewController: UITableViewController {
 
             if let dic = NSArray(contentsOfFile: path) as? [[String: Any]]  {
                 self.dataSource = dic as NSArray
+                
+
             }
         }
          self.clearsSelectionOnViewWillAppear = false
-
+       
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }

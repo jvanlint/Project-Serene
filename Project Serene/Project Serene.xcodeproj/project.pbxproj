@@ -22,6 +22,10 @@
 		37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A141E67A37300368411 /* PlanTableViewCell.swift */; };
 		37108A181E68EA6A00368411 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A171E68EA6A00368411 /* Enums.swift */; };
 		37108A1A1E68F14D00368411 /* ProcedurePlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37108A191E68F14D00368411 /* ProcedurePlan.swift */; };
+		514058791F3D943400A60A02 /* gamesTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514058781F3D943400A60A02 /* gamesTestData.swift */; };
+		517F5EE21F3D4DEC00922BF9 /* GamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5EE11F3D4DEC00922BF9 /* GamesTableViewController.swift */; };
+		517F5EE41F3D4E1800922BF9 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5EE31F3D4E1800922BF9 /* GamesTableViewCell.swift */; };
+		517F5EE61F3D4FB400922BF9 /* Distractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F5EE51F3D4FB400922BF9 /* Distractions.swift */; };
 		860FF6F51F1CF604007DFAEA /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860FF6F41F1CF604007DFAEA /* SettingsTableViewController.swift */; };
 		860FF6F81F1CF750007DFAEA /* testData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 860FF6F71F1CF750007DFAEA /* testData.plist */; };
 		860FF6FA1F1CF859007DFAEA /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860FF6F91F1CF859007DFAEA /* SettingsTableViewCell.swift */; };
@@ -57,6 +61,10 @@
 		37108A141E67A37300368411 /* PlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanTableViewCell.swift; sourceTree = "<group>"; };
 		37108A171E68EA6A00368411 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		37108A191E68F14D00368411 /* ProcedurePlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcedurePlan.swift; sourceTree = "<group>"; };
+		514058781F3D943400A60A02 /* gamesTestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gamesTestData.swift; path = "Project Serene/Data/gamesTestData.swift"; sourceTree = "<group>"; };
+		517F5EE11F3D4DEC00922BF9 /* GamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewController.swift; sourceTree = "<group>"; };
+		517F5EE31F3D4E1800922BF9 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+		517F5EE51F3D4FB400922BF9 /* Distractions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distractions.swift; sourceTree = "<group>"; };
 		860FF6F41F1CF604007DFAEA /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		860FF6F71F1CF750007DFAEA /* testData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = testData.plist; path = "Project Serene/Data/testData.plist"; sourceTree = "<group>"; };
 		860FF6F91F1CF859007DFAEA /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
@@ -138,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				37108A191E68F14D00368411 /* ProcedurePlan.swift */,
+				517F5EE51F3D4FB400922BF9 /* Distractions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 				37108A131E67A1FB00368411 /* Table Cells */,
 				37108A031E679C2000368411 /* PlanTableViewController.swift */,
 				860FF6F41F1CF604007DFAEA /* SettingsTableViewController.swift */,
+				517F5EE11F3D4DEC00922BF9 /* GamesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,6 +196,7 @@
 			children = (
 				37108A141E67A37300368411 /* PlanTableViewCell.swift */,
 				860FF6F91F1CF859007DFAEA /* SettingsTableViewCell.swift */,
+				517F5EE31F3D4E1800922BF9 /* GamesTableViewCell.swift */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -203,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				860FF6F71F1CF750007DFAEA /* testData.plist */,
+				514058781F3D943400A60A02 /* gamesTestData.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -317,6 +329,8 @@
 				37108A091E679F3B00368411 /* MessageComposer.swift in Sources */,
 				37108A181E68EA6A00368411 /* Enums.swift in Sources */,
 				37108A0F1E679F5900368411 /* ArrayExtensions.swift in Sources */,
+				517F5EE21F3D4DEC00922BF9 /* GamesTableViewController.swift in Sources */,
+				514058791F3D943400A60A02 /* gamesTestData.swift in Sources */,
 				860FF6FA1F1CF859007DFAEA /* SettingsTableViewCell.swift in Sources */,
 				371089E01E667CDC00368411 /* AppDelegate.swift in Sources */,
 				37108A0E1E679F5900368411 /* IntExtensions.swift in Sources */,
@@ -324,6 +338,8 @@
 				860FF6F51F1CF604007DFAEA /* SettingsTableViewController.swift in Sources */,
 				37108A121E679FA900368411 /* WireframeButton.swift in Sources */,
 				37108A151E67A37300368411 /* PlanTableViewCell.swift in Sources */,
+				517F5EE41F3D4E1800922BF9 /* GamesTableViewCell.swift in Sources */,
+				517F5EE61F3D4FB400922BF9 /* Distractions.swift in Sources */,
 				37108A0D1E679F5900368411 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
